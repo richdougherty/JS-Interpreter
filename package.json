@@ -1,0 +1,41 @@
+{
+  "name": "js-interpreter",
+  "description": "A sandboxed JavaScript interpreter in JavaScript.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/NeilFraser/JS-Interpreter",
+  "author": {
+    "name": "Neil Fraser",
+    "url": "https://neil.fraser.name/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeilFraser/JS-Interpreter"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://raw.githubusercontent.com/NeilFraser/JS-Interpreter/master/LICENSE"
+    }
+  ],
+  "main": "lib/interpreter",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "acorn": "0.4.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.4",
+    "browserify": "^3.33.0",
+    "grunt-browserify": "^2.0.1"
+  },
+  "keywords": []
+}

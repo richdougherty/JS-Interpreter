@@ -1,0 +1,4 @@
+/node_modules/
+
+# Ignore distribution artifacts in dev mode
+/dist/
