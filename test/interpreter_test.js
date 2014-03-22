@@ -33,9 +33,9 @@ exports['awesome'] = {
       reflGlobal = scope;
     });
     interp.run();
-    var reflx = interp.getProperty(reflGlobal, "x");
-    var refl1 = interp.createPrimitive(1);
-    var comp = interp.comp(reflx, refl1);
+    var reflx = interp.mirror.getProperty(reflGlobal, "x");
+    var refl1 = interp.mirror.createPrimitive(1);
+    var comp = interp.mirror.comp(reflx, refl1);
     test.equal(comp, 0);
     test.done();
   }
